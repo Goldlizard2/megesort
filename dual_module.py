@@ -1,10 +1,6 @@
 """Module for finding test results of quarantined people using dual indices."""
 from classes2 import Name
 
-# note you might want to import other things here for testing
-# but your submission should only include the import line above.
-
-
 def dual_result_finder(tested, quarantined):
     """This function takes two lists as input.
     tested contains (nhi, Name, result) tuples for people that have been tested
